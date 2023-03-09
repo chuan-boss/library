@@ -1,3 +1,9 @@
+## 详细文档
+
+有关该项目的详细设计及效果测试，见release
+
+https://github.com/chuan-boss/library/releases/tag/v1.0
+
 ## 使用说明
 
 ### 运行系统
