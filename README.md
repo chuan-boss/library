@@ -1,3 +1,83 @@
+## 使用说明
+
+### 运行系统
+
+Windows/Linux
+
+### 相关依赖(配置)
+
+* 语言：python,vue,mysql
+
+* 工具：npm
+
+* 依赖包：
+
+  * python : 
+
+    ```python
+    asgiref      3.5.2
+    cffi         1.15.1
+    cryptography 38.0.4
+    Django       4.1.4
+    pip          21.3.1
+    pycparser    2.21
+    PyMySQL      1.0.2
+    setuptools   60.2.0
+    sqlparse     0.4.3
+    tzdata       2022.7
+    wheel        0.37.1
+    
+    ```
+
+  * vue : 
+
+    ```vue
+    切换到Web目录运行：
+    		npm install
+    (依赖包过多，不一一列出)
+    ```
+
+### 运行
+
+#### 	数据库
+
+```
+//切换到DATABASE文件夹
+cd
+```
+
+更改init.py中的密码为自己root账号的密码
+
+![image-20221208200942505](.\MD_IMG\image-20221208200942505.png)
+
+```
+python Run.py
+```
+
+
+#### 	前端
+
+``` 
+//切换到相应目录
+cd /Web
+//安装相关依赖
+npm install
+//运行
+npm run serve
+
+```
+
+#### 	后端
+
+```
+//切换到Server文件夹
+cd 
+
+python manage.py migrage
+python manage.py runserver
+```
+
+
 ## 数据库逻辑结构
 
 - ### 用户
